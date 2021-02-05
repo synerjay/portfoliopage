@@ -1,0 +1,165 @@
+body {
+  padding-top: 48px;
+  color: #f0f0f0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html { 
+  scroll-behavior: smooth;
+}
+
+a:link {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+a:active {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #041B2D;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #000000;
+}
+
+@media all and (max-width: 750px) {
+  #navbar {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-link {
+  margin: 20px 50px 10px 10px;
+  font-size: 20px; 
+}
+
+#welcome-section {
+  text-align: center;
+  background: linear-gradient(90deg, #428CD4, #FF9CDA);
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Satisfy', cursive;
+}
+
+h3 {
+  color: #041B2D;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#projects {
+  text-align: center;
+  height: 800px;
+  background-color: #004E9A;
+  margin: -40px 0px 0px 0px;
+  padding-top: 50px;
+}
+
+#project-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media all and (max-width: 750px) {
+  #projects {
+    height: auto;
+    text-align: center;
+  }
+  #project-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-around;
+  }
+}
+
+.project-tile {
+  width: 350px;
+  background-color: #041B2D;
+  border-radius: 5px;
+  margin: 20px 20px 20px 20px;
+}
+
+#project-img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+#projects > h2 {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.project-title {
+  font-size: 20px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+#contact {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(90deg, #428CD4, #FF9CDA);
+  height: 620px;
+  margin: -20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  padding-top: 110px;
+}
+
+#profile-link {
+  font-size: 30px;
+  margin: 10px 40px 10px 20px; 
+  padding-top: 20px;
+}
+
+#contact-links {
+  margin-top: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 3px solid #041B2D;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+}
